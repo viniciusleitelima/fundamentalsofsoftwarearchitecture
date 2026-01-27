@@ -35,20 +35,13 @@ O objetivo é **criar uma ponte clara entre teoria e prática**, que será aplic
 ### 🟦 Capítulo 1 – O que é Arquitetura de Software
 
 📌 **Ideia central**  
-Arquitetura define a **estrutura do sistema** e as **decisões críticas** que afetam sua evolução.
 
 🧠 **Pontos-chave**
-- Arquitetura ≠ código
-- Nem toda decisão é arquitetural
-- Arquitetura molda manutenibilidade e evolução
+-
 
 ⚖️ **Trade-offs**
-- Decidir cedo traz estabilidade
-- Decidir errado gera alto custo de mudança
+- 
 
 🔗 **Conexão prática**
-- Justifica a adoção inicial de arquiteturas simples, como *Layered*
-
-
-As decisões arquiteturais deste estudo estão documentadas em:
+- 
 
