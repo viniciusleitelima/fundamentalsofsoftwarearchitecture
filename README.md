@@ -42,21 +42,3 @@ a conceitos estudados em `fundamentals/`.
 O mesmo domínio pode ser reimplementado
 em diferentes estilos arquiteturais
 para comparação de trade-offs.
-
-## 📚 Resumo por capítulo
-
----
-
-### 🟦 Capítulo 1 – O que é Arquitetura de Software
-
-📌 **Ideia central**  
-
-🧠 **Pontos-chave**
--
-
-⚖️ **Trade-offs**
-- 
-
-🔗 **Conexão prática**
-- 
-
