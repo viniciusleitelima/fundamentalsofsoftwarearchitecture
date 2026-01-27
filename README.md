@@ -28,6 +28,21 @@ O objetivo é **criar uma ponte clara entre teoria e prática**, que será aplic
 
 ---
 
+## 📚 Estrutura
+- `fundamentals/` → Conceitos, capítulos, decisões e diagramas
+- `layered/` → Implementação prática da arquitetura em camadas
+- `pipeline/` → Implementação prática de pipeline (futuro)
+- `microkernel/` → Arquitetura baseada em plugins (futuro)
+
+## 🧠 Abordagem
+Cada módulo prático está diretamente ligado
+a conceitos estudados em `fundamentals/`.
+
+## 📈 Evolução
+O mesmo domínio pode ser reimplementado
+em diferentes estilos arquiteturais
+para comparação de trade-offs.
+
 ## 📚 Resumo por capítulo
 
 ---
