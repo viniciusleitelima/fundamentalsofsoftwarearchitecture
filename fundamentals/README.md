@@ -13,9 +13,19 @@
 
 ## 🧠 **Pontos-chave**
 ### 4 dimensões da arquitetura de software
+- Estrutura: É o estilo arquitetural no qual o sistema está sendo implementado. Por exemplo microsserviços, camadas, microkernel.
+- Características: São os critérios de sucesso de um sistema, que atuam como apoio fundamental para as funcionalidades sejam executadas. Por exemplo disponilidade, escalabilidade, segurança, elasticidade, etc.
+- Decisões de arquitetura: São as regras que definem como um sistema deve ser construído, elas formam os limites do sistema orientando sobre o que é ou não é perrmitido. Entretanto caso haja cenário que não possa implementada por alguma condição no sistema, essa regra pode ser derrubada com a *variância*, que é uma exceção no fluxo. 
 
-⚖️ **Trade-offs**
-- 
 
-🔗 **Conexão prática**
-- 
+
+
+
+
+
+
+
+
+
+
+
