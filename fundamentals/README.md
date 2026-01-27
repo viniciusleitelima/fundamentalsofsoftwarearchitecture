@@ -18,6 +18,10 @@
 - Decisões de arquitetura: São as regras que definem como um sistema deve ser construído, elas formam os limites do sistema orientando sobre o que é ou não é perrmitido. Entretanto caso haja cenário que não possa implementada por alguma condição no sistema, essa regra pode ser derrubada com a *variância*, que é uma exceção no fluxo.
 - Princípios de design: Diferente da decisão, o princípio é uma diretriz. Onde há uma orientação sobre o uso, mas que pode ser utilizado outras opções.
 
+### 8 expectativas essenciais para um arquiteto de software
+- Tomar decisões de arquitetura: Um arquiteto deve estabelecer as decisões da arquitetura e os princípios do design usados para orientaar as decisões da tecnologia dentro da equipe, do departamento ou tem toda a empresa. Realizando sempre orientação não escolhas técnicas. Por exemplo orientar sobre o uso de framework reativo para frontend web, porém sem especificar qual o deve ser usado.
+- Analisar continuamente a arquitetura:
+
 
 
 
