@@ -17,7 +17,8 @@ O foco **não é construir um sistema completo**, mas:
 
 ## Desenho da solução
 O desenho da solução está disponibilizado no seguinte link:
-https://mermaid.ai/d/f34af3be-7fd9-47b0-8742-89e1e91b072d
+<a href="https://mermaid.ai/d/f34af3be-7fd9-47b0-8742-89e1e91b072d" target="_blank">https://mermaid.ai/d/f34af3be-7fd9-47b0-8742-89e1e91b072d</a>
+
 
 
 
