@@ -19,9 +19,14 @@
 - Princípios de design: Diferente da decisão, o princípio é uma diretriz. Onde há uma orientação sobre o uso, mas que pode ser utilizado outras opções.
 
 ### 8 expectativas essenciais para um arquiteto de software
-- Tomar decisões de arquitetura: Um arquiteto deve estabelecer as decisões da arquitetura e os princípios do design usados para orientaar as decisões da tecnologia dentro da equipe, do departamento ou tem toda a empresa. Realizando sempre orientação não escolhas técnicas. Por exemplo orientar sobre o uso de framework reativo para frontend web, porém sem especificar qual o deve ser usado.
-- Analisar continuamente a arquitetura:
-
+- Tomar decisões de arquitetura: *Um arquiteto deve estabelecer as decisões da arquitetura e os princípios do design usados para orientaar as decisões da tecnologia dentro da equipe, do departamento ou em toda a empresa*. Realizando sempre orientação não escolhas técnicas. Por exemplo orientar sobre o uso de framework reativo para frontend web, porém sem especificar qual o deve ser usado.
+- Analisar continuamente a arquitetura: *Um arquiteto deve analisar continuamente a arquitetura e o ambiente de tecnologia atual, para então recomendar solução de melhorias*. Sugere que o arquiteto realize avaliações sobre a definição de arquitetura realizada no passado, para garantir que a características como desempenho, disponibilidade e escalabilidade.
+- Manter-se atualizado com as últimas tendências: *Um arquiteto deve ficar atualizado com as últimas tendências da tecnologia do setor*. Entender as principais tendências para tomar de decisão do futuro
+- Assegurar a conformidade com as decisões: *Um arquiteto deve assegurar a conformidade com as decisões de arquitetura e os princípios de design*. Verificar continuamente se as equipes de desenvolvimento estão seguindo a definições realizadas.
+- Exposição e experiência diversificada: *Um arquiteto deve se expor a tecnologias, estruturas, plataformas e ambientes múltiplos e diversificados*. Focar em ter amplitude técnica e profundidade técnica.
+- Ter conhecimento sobre o domínio do negócio: *Um arquiteto deve ter certo nível de especialização no domínio do negócio*. Quando não se entende o domínio do negócio fica difícil entender o problemas e planejar uma arquitetura que atenda os requisitos com eficiência.
+- Ter habilidades interpessoais: *Um arquiteto deve ter habilidades interpessoais excepcionais, inclusive trabalho em equipe, facilitação e liderança*. *As habilidads de liderança são, pelo metade do que é preciso para se tornar um arquiteto de software eficiente*
+- Entender e lidar bem com questões políticas: *Um arquiteto deve entender o clima político da empresa e conseguir lidar bem com ele*. *Quase toda decisão que um arquiteto toma será questionada*. Um arquiteto atua com cargo de confiança, pois as decisões afetam não apenas o desenvolvedor, mas a empresa como um todo.
 
 
 
