@@ -9,10 +9,10 @@
 ### Apresentar o conceito de pensamento arquitetônico
 - Um arquiteto pensa de modo diferente de um desenvolvedor.
 - Pensar como arquiteto envolve quatro aspectos principais.
-  - Primeiro: É entender a diferença entre arquitetura e design.
-  - Segundo: Ter uma grande variedadee ded conhecimento técnico e ainda manter a profundidade.
-  - Terceiro: Entender, analisar e reconciliar os trade-offs entre várias soluções e tecnologias.
-  - Quarto: Entender a importância das motivações comerciais e como elas traduzem em preocupações arquitetônicas.
+  - **Primeiro**: É entender a diferença entre arquitetura e design.
+  - **Segundo**: Ter uma grande variedade de conhecimento técnico e ainda manter a profundidade.
+  - **Terceiro**: Entender, analisar e reconciliar os trade-offs entre várias soluções e tecnologias.
+  - **Quarto**: Entender a importância das motivações comerciais e como elas traduzem em preocupações arquitetônicas.
 
 ## 🧠 **Pontos-chave**
 ### Arquitetura x Desenvolvimento
@@ -21,7 +21,9 @@
 - Para fazer a arquitetura funcionar essas barreiras devem ser quebradas, formando uma direção bidirecional forte entre o arquiteto e equipes de desenvolvimento.
 
 ### Três níveis de conhecimento
-- 
+- **O que você sabe:**
+- **O que você sabe que não sabe:**
+- **O que não sabe que não sabe:**
 
 ### Amplitude técnica x profundidade técnica
 - 
