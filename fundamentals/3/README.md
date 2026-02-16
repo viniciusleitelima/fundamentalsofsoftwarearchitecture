@@ -53,6 +53,12 @@
     - *Conascência de Significado (CoM) ou Conascência de Convenção (CoC)*: Múltiplos componentes devem concordar com o significado de certos valores. Ex: *int True = 1; int False= 0;*
     - *Conascência de Posição (CoP)*: Múltiplos componentes devem concordar com o ordem dos valores
     - *Conascência de Algoritmo (CoA)*: Múltiplos componentes devem concordar com certo algoritmo. Ex: Algoritmo para geração de cpnj/cpf tem ser o mesmo em qualquer componente
+  - **Dinâmica:** É o acomplamento durante a execução
+    - *Conascência de Execução (CoE)*: A ordem da execução dos múltiplos componentes é importante
+    - *Conascência de Tempo (CoT)*: O tempo de execução dos múltiplos componentes é importante
+    - *Conascência de Valor (CoV)*: Ocorre quando diversos valores se relacionam e devem mudar juntos
+    - *Conascência de Identidade (CoI)*: Ocorre quando vários componentes devem referenciar a mesma entidade
+
 
 
 
