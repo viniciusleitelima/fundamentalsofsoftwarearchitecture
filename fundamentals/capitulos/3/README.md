@@ -23,7 +23,7 @@
   - *Coesão coincidental*: Os elementos em um módulo não estão relacionados, a não ser no mesmo arquivo de origem.
 - Métrica **LCOM** (Falta de Coesão em Métodos): Coesão estrutural de um módulo seguindo a fórmula:
   - LCOM = |P| - |Q|   se |P| > |Q|
-    LCOM = 0          caso contrário
+    LCOM = 0          caso contrário 
 
 
 ### Três níveis de conhecimento
