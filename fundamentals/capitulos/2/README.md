@@ -21,15 +21,20 @@
 - Para fazer a arquitetura funcionar essas barreiras devem ser quebradas, formando uma direção bidirecional forte entre o arquiteto e equipes de desenvolvimento.
 
 ### Três níveis de conhecimento
-- **O que você sabe:**
-- **O que você sabe que não sabe:**
-- **O que não sabe que não sabe:**
+- **O que você sabe:** Inclui as tecnologias, os frameworks, as linguagens e ferramentas que você conhece e usa no dia-a-dia
+- **O que você sabe que não sabe:** É aquilo que você sabeum pouco e ouviu falar, mas tem pouca ou nenhuma especialização.
+- **O que não sabe que não sabe:** É a maior parte da pirâmide e incluis as inúmeras tecnologias, ferramentas, estruturas e linguagens que você nem sabe elas existem
 
 ### Amplitude técnica x profundidade técnica
-- 
+- Para um arquiteto ter uma amplitude técnica é mais importante do profundidade, pois os arquitetos devem tomar decisões que combinem capacidades com restrições técnicas e assim ter uma grande variedade de soluções é precioso. Por isso os arquitetos devem focar em amplitude para ter uma aljava maior para suas flechas.
 
 ### Como manter a profundidade técnica sendo arquiteto
--
+- Equilibrar entre codificação e arquitetura. Pois quando o arquiteto assume o desenvolvimento do código acaba se tornando um gargalo para a equipe.
+- Existem quatro módulos para um arquiteto manter sua profundidade técnica:
+  - **Primeiro:** Realizar provas de conceitos (POCs)
+  - **Segundo:** Resolver histórias com déficits técnicos
+  - **Terceiro:** Trabalhar em correção de erros
+  - **Quarto:** Fazer revisões de código com frequência
 
 
 
