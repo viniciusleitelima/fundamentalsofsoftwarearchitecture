@@ -30,7 +30,7 @@
 
 ### Como manter a profundidade técnica sendo arquiteto
 - Equilibrar entre codificação e arquitetura. Pois quando o arquiteto assume o desenvolvimento do código acaba se tornando um gargalo para a equipe.
-- Existem quatro módulos para um arquiteto manter sua profundidade técnica:
+- Existem quatro modos para um arquiteto manter sua profundidade técnica:
   - **Primeiro:** Realizar provas de conceitos (POCs)
   - **Segundo:** Resolver histórias com déficits técnicos
   - **Terceiro:** Trabalhar em correção de erros
