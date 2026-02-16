@@ -22,7 +22,7 @@
   - *Coesão lógica*: Os dados nos módulos são relacionados logicamente, mas não funcionalmente. Por exemplo o pacote *StringUtils* são um grupo de métodos estáticos que operam na classe *String*, mas não são relacionados.
   - *Coesão coincidental*: Os elementos em um módulo não estão relacionados, a não ser no mesmo arquivo de origem.
 - Métrica **LCOM96b** (Falta de Coesão em Métodos): Coesão estrutural de um módulo seguindo a fórmula:
-  - LCOM96b = 1 − ( ∑ m(Ai) ) / ( m × a )
+  - *LCOM96b = 1 − ( ∑ m(Ai) ) / ( m × a )*
   - Onde: m  = número total de métodos da classe, a  = número total de atributos da classe, m(Ai) = número de métodos que acessam o atributo Ai
 
 ### Acoplamento
@@ -31,25 +31,19 @@
 
 ### Abstração:
 - É a proporção de artefatos abstratos para artefatos concretos. Pode ser calculada através da fórmula:
-- A =  ∑m^a / ∑m^c
+- *A =  ∑m^a / ∑m^c*
+- Onde: m^a = o número de elementos abstratos como interfaces ou classes abstratas, m^c = o número de elementos concretos
 
 ### Instabilidade:
+- Determina a volatilidade de uma base de código. Altos graus de instabilidade indica que quando é alterado algo gera um impacto grande por conta do alto acomplamento. Seguindo a fórmula:
+- *I = C^e / C^e + C^a*
+- Onde: *C^e* é o número do acomplamento *eferente*, e *C^a* é o número do acomplamento *aferente*
 
-### Três níveis de conhecimento
-- **O que você sabe:** Inclui as tecnologias, os frameworks, as linguagens e ferramentas que você conhece e usa no dia-a-dia
-- **O que você sabe que não sabe:** É aquilo que você sabeum pouco e ouviu falar, mas tem pouca ou nenhuma especialização.
-- **O que não sabe que não sabe:** É a maior parte da pirâmide e incluis as inúmeras tecnologias, ferramentas, estruturas e linguagens que você nem sabe elas existem
+### Distância da Sequência Principal:
+- É uma métrica para definir o quão equilibrado é a classe. Seguindo a fórmula:
+- *D = |A + I -1|*
+- Onde: *A* é a abstração e *I* é a instabilidade
 
-### Amplitude técnica x profundidade técnica
-- Para um arquiteto ter uma amplitude técnica é mais importante do profundidade, pois os arquitetos devem tomar decisões que combinem capacidades com restrições técnicas e assim ter uma grande variedade de soluções é precioso. Por isso os arquitetos devem focar em amplitude para ter uma aljava maior para suas flechas.
-
-### Como manter a profundidade técnica sendo arquiteto
-- Equilibrar entre codificação e arquitetura. Pois quando o arquiteto assume o desenvolvimento do código acaba se tornando um gargalo para a equipe.
-- Existem quatro modos para um arquiteto manter sua profundidade técnica:
-  - **Primeiro:** Realizar provas de conceitos (POCs)
-  - **Segundo:** Resolver histórias com déficits técnicos
-  - **Terceiro:** Trabalhar em correção de erros
-  - **Quarto:** Fazer revisões de código com frequência
 
 
 
