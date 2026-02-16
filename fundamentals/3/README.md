@@ -59,6 +59,11 @@
     - *Conascência de Valor (CoV)*: Ocorre quando diversos valores se relacionam e devem mudar juntos
     - *Conascência de Identidade (CoI)*: Ocorre quando vários componentes devem referenciar a mesma entidade
 
+ **Propriedades**   
+ - *Força*: A facilidade com a qual um desenvolvedor consegue refatorar esse tipo de acomplamento.
+ - *Localização*: Mede a proximidade dos módulos entre si na base de código.
+ - *Grau*: É relacionado ao tamanho do seu impacto
+
 
 
 
