@@ -21,10 +21,19 @@
   - *Coesão temporal*: Os módulos se relacionam com base em dependências do tempo.
   - *Coesão lógica*: Os dados nos módulos são relacionados logicamente, mas não funcionalmente. Por exemplo o pacote *StringUtils* são um grupo de métodos estáticos que operam na classe *String*, mas não são relacionados.
   - *Coesão coincidental*: Os elementos em um módulo não estão relacionados, a não ser no mesmo arquivo de origem.
-- Métrica **LCOM** (Falta de Coesão em Métodos): Coesão estrutural de um módulo seguindo a fórmula:
-  - LCOM = |P| - |Q|   se |P| > |Q|
-    LCOM = 0          caso contrário 
+- Métrica **LCOM96b** (Falta de Coesão em Métodos): Coesão estrutural de um módulo seguindo a fórmula:
+  - LCOM96b = 1 − ( ∑ m(Ai) ) / ( m × a )
+  - Onde: m  = número total de métodos da classe, a  = número total de atributos da classe, m(Ai) = número de métodos que acessam o atributo Ai
 
+### Acoplamento
+- **Acoplamento aferente**: É o número de conexões de entrada para um artefato do código.
+- **Acoplamento eferente**: É o número de conexões de saída para um artefato do código.
+
+### Abstração:
+- É a proporção de artefatos abstratos para artefatos concretos. Pode ser calculada através da fórmula:
+- A =  ∑m^a / ∑m^c
+
+### Instabilidade:
 
 ### Três níveis de conhecimento
 - **O que você sabe:** Inclui as tecnologias, os frameworks, as linguagens e ferramentas que você conhece e usa no dia-a-dia
