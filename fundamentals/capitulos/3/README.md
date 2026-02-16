@@ -44,6 +44,15 @@
 - *D = |A + I -1|*
 - Onde: *A* é a abstração e *I* é a instabilidade
 
+### Conascência
+- *Dois componentes são conascentes se uma mudança~em um requer que outro seja modificado para manter a correção geral do sistema* - *Meilir Page-Jones*
+- Conascência é divida em dois tipos:
+  - **Estática:** É o acomplamento no nível do código-fonte
+    - *Conascência de Nome (CoN)*: Múltiplos componentes devem concordar com o nome de uma entidade ou de um método.
+    - *Conascência de Tipo (CoT)*: Múltiplos componentes devem concordar com o tipo de uma entidade ou de um atributo
+    - *Conascência de Significado (CoM) ou Conascência de Convenção (CoC)*: Múltiplos componentes devem concordar com o significado de certos valores. Ex: *int True = 1; int False= 0;*
+    - *Conascência de Posição (CoP)*: Múltiplos componentes devem concordar com o ordem dos valores
+    - *Conascência de Algoritmo (CoA)*: Múltiplos componentes devem concordar com certo algoritmo. Ex: Algoritmo para geração de cpnj/cpf tem ser o mesmo em qualquer componente
 
 
 
