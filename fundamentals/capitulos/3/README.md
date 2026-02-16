@@ -22,7 +22,8 @@
   - *Coesão lógica*: Os dados nos módulos são relacionados logicamente, mas não funcionalmente. Por exemplo o pacote *StringUtils* são um grupo de métodos estáticos que operam na classe *String*, mas não são relacionados.
   - *Coesão coincidental*: Os elementos em um módulo não estão relacionados, a não ser no mesmo arquivo de origem.
 - Métrica **LCOM** (Falta de Coesão em Métodos): Coesão estrutural de um módulo seguindo a fórmula:
-  - ![LCOM](https://latex.codecogs.com/png.image?LCOM=\begin{cases}|P|-|Q|,&\text{se }|P|>|Q|\\0,&\text{caso contrário}\end{cases})
+  - ```math
+    M = C × (1 + i)^n
 
 
 ### Três níveis de conhecimento
