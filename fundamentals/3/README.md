@@ -65,7 +65,7 @@
  - *Grau*: É relacionado ao tamanho do seu impacto
 
  **Escala de conascência**
- - 1: ⭐ ⭐ ⭐ ⭐ ⭐
+ - 1: ⭐⭐⭐⭐⭐
   - Nome
  - 2: ⭐⭐⭐⭐
   - Tipo
