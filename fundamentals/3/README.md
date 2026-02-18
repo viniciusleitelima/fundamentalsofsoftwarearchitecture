@@ -66,33 +66,20 @@
 
  **Escala de conascência**
  - 1: ⭐⭐⭐⭐⭐
-  - Nome
+    - Nome
  - 2: ⭐⭐⭐⭐
-  - Tipo
+    - Tipo
  - 3: ⭐⭐⭐
-  - Significado
+    - Significado
  - 4: ⭐⭐☆
-  - Algoritmo
+    - Algoritmo
  - 5: ⭐⭐☆☆
-  - Posição
+    - Posição
  - 6: ⭐☆☆
-  - Execução
+    - Execução
  - 7: ☆☆☆
-  - Tempo
+    - Tempo
  - 8: ☆☆☆☆
-  - Valor
+    - Valor
  - 9: ☆☆☆☆☆
-  - Identidade
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - Identidade
