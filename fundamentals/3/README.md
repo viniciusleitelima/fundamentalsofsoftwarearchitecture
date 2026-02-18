@@ -64,6 +64,26 @@
  - *Localização*: Mede a proximidade dos módulos entre si na base de código.
  - *Grau*: É relacionado ao tamanho do seu impacto
 
+ **Escala de conascência**
+ - 1: +++++
+  - Nome
+ - 2: ++++
+  - Tipo
+ - 3: +++
+  - Significado
+ - 4: ++-
+  - Algoritmo
+ - 5: ++--
+  - Posição
+ - 6: +--
+  - Execução
+ - 7: ---
+  - Tempo
+ - 8: ----
+  - Valor
+ - 9: ------
+  - Identidade
+
 
 
 
