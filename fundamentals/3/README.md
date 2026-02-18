@@ -65,23 +65,23 @@
  - *Grau*: É relacionado ao tamanho do seu impacto
 
  **Escala de conascência**
- - 1: +++++
+ - 1: ⭐ ⭐ ⭐ ⭐ ⭐
   - Nome
- - 2: ++++
+ - 2: ⭐⭐⭐⭐
   - Tipo
- - 3: +++
+ - 3: ⭐⭐⭐
   - Significado
- - 4: ++-
+ - 4: ⭐⭐☆
   - Algoritmo
- - 5: ++--
+ - 5: ⭐⭐☆☆
   - Posição
- - 6: +--
+ - 6: ⭐☆☆
   - Execução
- - 7: ---
+ - 7: ☆☆☆
   - Tempo
- - 8: ----
+ - 8: ☆☆☆☆
   - Valor
- - 9: ------
+ - 9: ☆☆☆☆☆
   - Identidade
 
 
