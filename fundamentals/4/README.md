@@ -33,8 +33,11 @@
    - **Robustez:**
       - A capacidade de lidar com condições de erro e limites durante execução
    - **Escalabilidade:**
-      - Capacidade de rodar e operar quando o número de usuários ou requisições aumenta         
+      - Capacidade de rodar e operar quando o número de usuários ou requisições aumenta    
+
 **Estruturais:**
+   - **Disponibilidade:**
+      - Por quanto o sistema precisa ficar disponível(24/7?
 
 ### Acoplamento
 - **Acoplamento aferente**: É o número de conexões de entrada para um artefato do código.
