@@ -36,64 +36,44 @@
       - Capacidade de rodar e operar quando o número de usuários ou requisições aumenta    
 
 **Estruturais:**
-   - **Disponibilidade:**
-      - Por quanto o sistema precisa ficar disponível(24/7?
+   - **Configuração:**
+      - A capacidade dos usuários finais de mudar com facilidade os aspectos de configuração
+   - **Extensão:**
+      - Como é importante ligar as novas partes da funcionalidade
+   - **Instabilidade:**
+      - Facilidade de instalação do sistema em todas as plataformas necessárias    
+   - **Aproveitamento/ reutilização:** 
+      - Capacidade de aproveitar os componentes comuns em vários produtos. 
+   - **Localização:** 
+      - Suporte para vários idiomas nas telas de entrada/consulta nos campos de dados; nos relatórios, requisitos de caracteres multibytes e unidades de medidas ou moedas. 
+   - **Manutenção:** 
+      - Quão facilmente aplica as alterações e melhora o sistema? 
+   - **Portabilidade:** 
+      - O sistema precisa rodar em mais de uma plataforma? (Por exemplo, o front-end precisa rodar no Oracle e no banco de dados SAP?) 
+   - **Suporte:** 
+      - De qual nível de suporte técnico a aplicação precisa? Qual nível de registro e outras facilidades são requeridos para depurar os erros no sistema? 
+   - **Atualização:** 
+      - A capacidade de atualizar com facilidade/rapidez uma versão prévia dessa aplicação/solução para uma versão mais nova nos servidores e nos clientes. 
 
-### Acoplamento
-- **Acoplamento aferente**: É o número de conexões de entrada para um artefato do código.
-- **Acoplamento eferente**: É o número de conexões de saída para um artefato do código.
-
-### Abstração:
-- É a proporção de artefatos abstratos para artefatos concretos. Pode ser calculada através da fórmula:
-- *A =  ∑m^a / ∑m^c*
-- Onde: m^a = o número de elementos abstratos como interfaces ou classes abstratas, m^c = o número de elementos concretos
-
-### Instabilidade:
-- Determina a volatilidade de uma base de código. Altos graus de instabilidade indica que quando é alterado algo gera um impacto grande por conta do alto acomplamento. Seguindo a fórmula:
-- *I = C^e / C^e + C^a*
-- Onde: *C^e* é o número do acomplamento *eferente*, e *C^a* é o número do acomplamento *aferente*
-
-### Distância da Sequência Principal:
-- É uma métrica para definir o quão equilibrado é a classe. Seguindo a fórmula:
-- *D = |A + I -1|*
-- Onde: *A* é a abstração e *I* é a instabilidade
-
-### Conascência
-- *Dois componentes são conascentes se uma mudança~em um requer que outro seja modificado para manter a correção geral do sistema* - *Meilir Page-Jones*
-- Conascência é divida em dois tipos:
-  - **Estática:** É o acomplamento no nível do código-fonte
-    - *Conascência de Nome (CoN)*: Múltiplos componentes devem concordar com o nome de uma entidade ou de um método.
-    - *Conascência de Tipo (CoT)*: Múltiplos componentes devem concordar com o tipo de uma entidade ou de um atributo
-    - *Conascência de Significado (CoM) ou Conascência de Convenção (CoC)*: Múltiplos componentes devem concordar com o significado de certos valores. Ex: *int True = 1; int False= 0;*
-    - *Conascência de Posição (CoP)*: Múltiplos componentes devem concordar com o ordem dos valores
-    - *Conascência de Algoritmo (CoA)*: Múltiplos componentes devem concordar com certo algoritmo. Ex: Algoritmo para geração de cpnj/cpf tem ser o mesmo em qualquer componente
-  - **Dinâmica:** É o acomplamento durante a execução
-    - *Conascência de Execução (CoE)*: A ordem da execução dos múltiplos componentes é importante
-    - *Conascência de Tempo (CoT)*: O tempo de execução dos múltiplos componentes é importante
-    - *Conascência de Valor (CoV)*: Ocorre quando diversos valores se relacionam e devem mudar juntos
-    - *Conascência de Identidade (CoI)*: Ocorre quando vários componentes devem referenciar a mesma entidade
-
- **Propriedades**   
- - *Força*: A facilidade com a qual um desenvolvedor consegue refatorar esse tipo de acomplamento.
- - *Localização*: Mede a proximidade dos módulos entre si na base de código.
- - *Grau*: É relacionado ao tamanho do seu impacto
-
- **Escala de conascência**
- - 1: ⭐⭐⭐⭐⭐
-    - Nome
- - 2: ⭐⭐⭐⭐
-    - Tipo
- - 3: ⭐⭐⭐
-    - Significado
- - 4: ⭐⭐☆
-    - Algoritmo
- - 5: ⭐⭐☆☆
-    - Posição
- - 6: ⭐☆☆
-    - Execução
- - 7: ☆☆☆
-    - Tempo
- - 8: ☆☆☆☆
-    - Valor
- - 9: ☆☆☆☆☆
-    - Identidade
+**Transversais:**
+   - **Acessibilidade:** 
+      - Acesso a todos os usuários, inclusive com deficiências, como daltonismo e perda auditiva. 
+   - **Armazenamento:** 
+      - Os dados precisarão ser armazenados ou excluídos após um período de tempo? (Por exemplo, as contas do cliente serão excluídas após três meses ou marcadas como obsoletas e armazenadas em um banco de dados secundário para futuro acesso.) 
+   - **Autenticação:** 
+      - Requisitos de segurança para assegurar que os usuários são quem dizem ser. 
+   - **Autorização:**
+      - Requisitos de segurança para assegurar que os usuários possam acessar apenas certas funções na aplicação (por caso de uso, subsistema,página web, regra comercial, nível do campo etc.). 
+   - **Legalidade:** 
+      - Com quais restrições legais o sistema opera (proteção de dados, Sarbanes Oxley, GDPR etc.)? Quais direitos de reserva a empresa requer? Alguma regulação no modo como a aplicação será criada ou implantada? 
+   - **Privacidade:** 
+      - A capacidade de ocultar as transações dos funcionários internos da empresa (transações criptografadas para que até os DBAs e os arquitetos de rede não possam vê-las). 
+   - **Segurança:** 
+      - Os dados precisam ser criptografados no banco de dados? Criptografados para a comunicação de rede entre os sistemas internos? Qual tipo de autenticação precisa existir para o acesso remoto do usuário?
+   - **Suporte:** 
+      - De qual nível de suporte técnico a aplicação precisa? Qual nível de registro e outras facilidades são necessários para depurar os erros no sistema? 
+   - **Usabilidade/viabilidade:** 
+      - O nível de treinamento requerido para os usuários atingirem seus objetivos com a aplicação/solução. Os requisitos de utilização precisam ser tratados com a mesma seriedade de qualquer outra questão arquitetural. Qualquer lista de características da arquitetura será necessariamente incompleta; qualquer software pode inventar características importantes com base em fatores únicos 
+ 
+ ### Disponibilidade ou Desempenho? ###
+ - Depende, escolha o menos pior. Para garantir segurança, haverá impacto no desempenho
