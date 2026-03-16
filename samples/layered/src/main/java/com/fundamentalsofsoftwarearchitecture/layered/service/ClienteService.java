@@ -2,6 +2,7 @@ package com.fundamentalsofsoftwarearchitecture.layered.service;
 
 import com.fundamentalsofsoftwarearchitecture.layered.domain.cliente.Cliente;
 import com.fundamentalsofsoftwarearchitecture.layered.domain.cliente.dto.ClienteDTO;
+import com.fundamentalsofsoftwarearchitecture.layered.domain.cliente.enums.StatusCliente;
 import com.fundamentalsofsoftwarearchitecture.layered.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,5 +28,11 @@ public class ClienteService {
 
     public List<Cliente> listarTodos() {
         return clienteRepository.findAll();
+    }
+    
+    public void desativar(Long id){
+        Cliente cliente = this.buscarPorId(id);
+        cliente.setStatus(StatusCliente.DEACTIVE);
+        clienteRepository.save(cliente);
     }
 }

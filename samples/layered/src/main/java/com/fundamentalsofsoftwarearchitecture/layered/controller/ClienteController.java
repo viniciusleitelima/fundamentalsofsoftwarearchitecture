@@ -30,4 +30,9 @@ public class ClienteController {
         return clienteService.listarTodos();
     }
 
+    @PatchMapping("{id}/desativar")
+    private void desativar(@PathVariable Long id){
+        clienteService.desativar(id);
+    }
+
 }
